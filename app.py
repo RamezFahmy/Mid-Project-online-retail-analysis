@@ -1,2 +1,2 @@
 import streamlit as st
-st.title("Mid-Project: Sales Transactions Analysis")
+st.title("Global Sales Transactions Analysis")
