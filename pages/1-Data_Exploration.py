@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Data Exploration")
 
-df = pd.read_csv("data/Sales Clenad_df.csv")
+df = pd.read_csv("Dataset/Sales Clenad_df.csv")
 
 st.subheader("Dataset Structure")
 st.write(df.info())
