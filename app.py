@@ -10,7 +10,7 @@ This application presents a mid-project analysis of global sales transactions
 across regions, product categories, and sales channels.
 """)
 
-df = pd.read_csv("data/Sales Clenad_df.csv")
+df = pd.read_csv("Dataset/Sales Clenad_df.csv")
 
 st.header("Dataset Overview")
 st.write(f"Rows: {df.shape[0]}")
