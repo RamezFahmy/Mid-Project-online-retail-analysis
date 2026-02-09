@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Data Analysis")
 
-df = pd.read_csv("Sales Clenad_df.csv")
+df = pd.read_csv("data/Sales Clenad_df.csv")
 
 st.subheader("Sales by Product Category")
 category_sales = df.groupby("item type")["total revenue"].sum()
@@ -16,4 +16,5 @@ aov = (
          orders=("order id", "nunique"))
 )
 aov["AOV"] = aov["revenue"] / aov["orders"]
+
 st.bar_chart(aov["AOV"])
