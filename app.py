@@ -2,7 +2,6 @@ import streamlit as st
 st.title("Global Sales Transactions Analysis")
 st.header("Data Overview")
 st.write("This dataset contains global sales transactions across multiple regions, product categories, and sales channels.")
-
 st.write(f"Number of rows: {df.shape[0]}")
 st.write(f"Number of columns: {df.shape[1]}")
 st.dataframe(df.head())
