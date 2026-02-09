@@ -11,5 +11,6 @@ Cleaning steps applied:
 - Standardized column names
 """)
 
-df = pd.read_csv("Sales Clenad_df.csv")
+df = pd.read_csv("data/Sales Clenad_df.csv")
+
 st.dataframe(df.head())
