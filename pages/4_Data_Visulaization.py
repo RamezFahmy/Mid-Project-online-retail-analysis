@@ -13,4 +13,4 @@ fig, ax = plt.subplots()
 ax.plot(monthly.index, monthly.values, marker="o")
 
 st.pyplot(fig)
-
+profit_by_region = (df.groupby("region")["total Profit"].sum().sort_values(ascending=False))
