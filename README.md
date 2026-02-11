@@ -110,6 +110,7 @@ Calculated as:
 ## 🌐 Streamlit Web  Application
 
 The project includes a multi-page interactive Streamlit application.
+<img width="926" height="353" alt="image" src="https://github.com/user-attachments/assets/929a0924-9a92-4784-9514-334750b09a45" />
 
 ### Application Structure
 Mid-Project - Global Sales Data Analysis/
