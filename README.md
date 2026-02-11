@@ -14,6 +14,7 @@ This project presents an end-to-end data analysis of a global sales transactions
 
 --- 
 ##📂 Dataset Description
+
 ###Dataset Information
 
 - **Source File**: https://www.kaggle.com/datasets/okhiriadaveoseghale/100000-sales-records?utm_source=chatgpt.com
