@@ -1,11 +1,11 @@
-#Mid-Project: Global Sales Transactions Analysis#
+# Mid-Project: Global Sales Transactions Analysis#
 
-##Project Overview
+## Project Overview
 
 This project presents an end-to-end data analysis of a global sales transactions dataset. The objective is to explore, clean, analyze, and visualize sales data, then deploy the results using an interactive Streamlit web application.
 
 ---
-###The project demonstrates practical skills in:
+### The project demonstrates practical skills in:
 - Data cleaning and preparation
 - Exploratory data analysis (EDA)
 - Business-driven analytical questions
@@ -13,9 +13,9 @@ This project presents an end-to-end data analysis of a global sales transactions
 - Web app deployment using Streamlit Cloud
 
 --- 
-##📂 Dataset Description
+## 📂 Dataset Description
 
-###Dataset Information
+### Dataset Information
 
 - **Source File**: https://www.kaggle.com/datasets/okhiriadaveoseghale/100000-sales-records?utm_source=chatgpt.com
 - **Scope**:Global sales transactions
@@ -25,33 +25,33 @@ This project presents an end-to-end data analysis of a global sales transactions
 - **Metrics**: Units Sold, Total Revenue, Total Profit
 
 ----
-##Key Columns
+## Key Columns
 
-###Geographic Information
+### Geographic Information
 - Region
 - Country
   
-###Product Information                       
+### Product Information                       
 - item type
 - sales channel
   
-###Transaction Details
+### Transaction Details
 - Order id
 - Order date
 - Ship date
 - Units sold
   
-###Financial Metrics
+### Financial Metrics
 - Unit price
 - Unit cost
 - Total revenue
 - Total profit
 
 ----
-##🧹 Data Cleaning Process
+## 🧹 Data Cleaning Process
 The dataset was prepared for analysis using the following steps:
 
-###Cleaning Steps Applied
+### Cleaning Steps Applied
 
 - Removed duplicate records
 - Checked and verified missing values
@@ -61,13 +61,14 @@ The dataset was prepared for analysis using the following steps:
 
 ----
 **Output**
+
 Cleaned dataset used for all analysis and visualizations
 Verified dataset size and structure after cleaning
 
 ----
-**🔎 Exploratory Data Analysis (EDA)**
+## 🔎 Exploratory Data Analysis (EDA)
 
-The exploration phase included:
+### The exploration phase included:
 
 - Reviewing dataset structure and data types
 - Generating summary statistics for numerical variables
@@ -75,9 +76,10 @@ The exploration phase included:
 - Sales channel distribution
 - Regional distribution
 - Product category distribution
+
 This step ensured a clear understanding of data composition before performing business analysis.
 
-**📈 Data Analysis**
+## 📈 Data Analysis
 
 The analysis focused on answering key business questions.
 
@@ -105,7 +107,7 @@ Calculated as:
 - Identified most profitable markets
 - Distinguished revenue performance from profitability
 
-**🌐 Streamlit Web Application**
+**🌐 Streamlit Web  Application**
 
 The project includes a multi-page interactive Streamlit application.
 
