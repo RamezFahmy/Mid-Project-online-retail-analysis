@@ -1,6 +1,7 @@
-#📊 Mid-Project: Global Sales Transactions Analysis
+📊 #Mid-Project: Global Sales Transactions Analysis
 
-##📌 Project Overview
+📌 ##Project Overview
+
 This project presents an end-to-end data analysis of a global sales transactions dataset. The objective is to explore, clean, analyze, and visualize sales data, then deploy the results using an interactive Streamlit web application.
 
 ---
